@@ -18,6 +18,16 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+with st.sidebar:
+    st.title("Sürpriz Menüsü 🎁")
+    st.write("Burada senin için özel bir şey var...")
+    st.write("Sen doğduğunda evren ne yapıyordu merak ettin mi?")
+
+    # Direkt Link Butonu (Verdiğin Linke Gider)
+    st.link_button("🌌 Special Photo (Tıkla)", "https://imagine.gsfc.nasa.gov/hst_bday/june-29")
+
+    st.caption("Not: Butona basınca NASA'nın sayfası açılacak ✨")
+
 # Senin HTML Kodun (Buraya yapıştırıldı)
 html_code = """
 <!DOCTYPE html>
