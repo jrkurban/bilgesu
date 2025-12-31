@@ -8,12 +8,30 @@ st.set_page_config(page_title="Beni Affet ❤️", layout="wide")
 st.markdown("""
 <style>
     .block-container {
-        padding: 0 !important;
-        margin: 0 !important;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
     }
     iframe {
         width: 100% !important;
         height: 100vh !important;
+    }
+    /* Sidebar (Yan Sekme) Ayarları */
+    [data-testid="stSidebar"] {
+        background-color: #fce4ec;
+        border-right: 2px solid #f48fb1;
+    }
+    /* Link Butonu Stili */
+    .stLinkButton > a {
+        background-color: #2b1c50 !important;
+        color: white !important;
+        border: 1px solid #2b1c50 !important;
+        font-weight: bold !important;
+    }
+    .stLinkButton > a:hover {
+        background-color: #4a3080 !important;
+        border: 1px solid #4a3080 !important;
     }
 </style>
 """, unsafe_allow_html=True)
